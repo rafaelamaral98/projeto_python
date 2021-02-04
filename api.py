@@ -36,7 +36,7 @@ def home():
                 }
                  
         else:
-            return "Informe um valor válido!"
+            return "Informe nos dois campos, por favor!"
 
 @app.errorhandler(404)
 def not_found(error):
